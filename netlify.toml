@@ -1,0 +1,4 @@
+[build]
+  base = "."  # This tells Netlify to look for the base directory at the root.
+  publish = "."  # Set the publish directory to be the root, since your HTML files are there.
+  command = ""  # Leave this empty because no build step is needed (you're just serving static files).
